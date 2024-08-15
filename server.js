@@ -35,7 +35,7 @@ app.use(
 );
 
 const CounterRoutes = require("./routes/counterRoutes");
-const UnitRoutes = require("./routes/unitRoutes");
+const UnitRoutes = require("./routes/settings/unitRoutes");
 
 app.use("/counter", CounterRoutes);
 app.use("/unit", UnitRoutes);
