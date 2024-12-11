@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const UnitModel = require("../models/unitModel");
-const CounterModel = require("../models/counterModel");
+const UnitModel = require("../models/settings/unitModel");
+const CounterModel = require("../../models/counterModel");
 
 // Get all units
 router.get("/", async (req, res) => {
